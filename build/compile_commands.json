@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/jorel/projects/diskrw/build",
+  "command": "/usr/bin/c++  -I/home/jorel/projects/diskrw/tests/../include  -coverage -O0 -std=gnu++23 -o CMakeFiles/WriterTester.dir/writertest.cpp.o -c /home/jorel/projects/diskrw/tests/writertest.cpp",
+  "file": "/home/jorel/projects/diskrw/tests/writertest.cpp"
+},
+{
+  "directory": "/home/jorel/projects/diskrw/build",
+  "command": "/usr/bin/c++  -I/home/jorel/projects/diskrw/tests/../include  -coverage -O0 -std=gnu++23 -o CMakeFiles/WriterTester.dir/home/jorel/projects/diskrw/src/writer.cpp.o -c /home/jorel/projects/diskrw/src/writer.cpp",
+  "file": "/home/jorel/projects/diskrw/src/writer.cpp"
+},
+{
+  "directory": "/home/jorel/projects/diskrw/build",
+  "command": "/usr/bin/c++  -I/home/jorel/projects/diskrw/tests/../include  -coverage -O0 -std=gnu++23 -o CMakeFiles/WriterTester.dir/home/jorel/projects/diskrw/src/reader.cpp.o -c /home/jorel/projects/diskrw/src/reader.cpp",
+  "file": "/home/jorel/projects/diskrw/src/reader.cpp"
+}
+]

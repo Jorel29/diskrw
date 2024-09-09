@@ -1,0 +1,1 @@
+/usr/bin/c++  -coverage -O0 CMakeFiles/WriterTester.dir/writertest.cpp.o CMakeFiles/WriterTester.dir/home/jorel/projects/diskrw/src/writer.cpp.o CMakeFiles/WriterTester.dir/home/jorel/projects/diskrw/src/reader.cpp.o -o WriterTester  -lgcov 

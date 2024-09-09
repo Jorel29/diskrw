@@ -1,0 +1,3 @@
+/home/jorel/projects/diskrw/build/CMakeFiles/WriterTester.dir
+/home/jorel/projects/diskrw/build/CMakeFiles/edit_cache.dir
+/home/jorel/projects/diskrw/build/CMakeFiles/rebuild_cache.dir

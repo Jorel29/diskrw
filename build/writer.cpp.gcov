@@ -1,0 +1,30 @@
+        -:    0:Source:/home/jorel/projects/diskrw/src/writer.cpp
+        -:    0:Graph:./CMakeFiles/WriterTester.dir/home/jorel/projects/diskrw/src/writer.cpp.gcno
+        -:    0:Data:./CMakeFiles/WriterTester.dir/home/jorel/projects/diskrw/src/writer.cpp.gcda
+        -:    0:Runs:2
+        -:    1:#include "../include/writer.h"
+        -:    2:
+        4:    3:Writer::Writer(std::string filename) { m_filename = filename; }
+        -:    4:
+        4:    5:int Writer::write(std::string content, char mode) {
+        4:    6:  switch (mode) {
+        2:    7:  case 'a':
+        2:    8:    m_out.open(m_filename, std::ios::app);
+        2:    9:    break;
+        2:   10:  case 'o':
+        2:   11:    m_out.open(m_filename, std::ios::out);
+        2:   12:    break;
+    #####:   13:  default:
+    #####:   14:    break;
+        -:   15:  }
+        -:   16:
+        4:   17:  const char *cstr_content = content.c_str();
+        -:   18:
+        4:   19:  if (m_out.is_open()) {
+        4:   20:    m_out.write(cstr_content, content.size());
+        -:   21:  } else {
+    #####:   22:    return -1;
+        -:   23:  }
+        -:   24:
+        4:   25:  return 0;
+        -:   26:}
