@@ -4,6 +4,5 @@
 ## Functionality
 The objective of these wrapper classes is to read and write files to disk
 
-## Future Consideration: Multithreaded
-- Add the ability to write to multiple files concurrently
+
 
